@@ -1,0 +1,1898 @@
+/** QQ登录 **/
+.loginbox {
+    z-index: 10010;
+    width: 100%;
+    height: 100%;
+}
+
+.login-suss{
+    display: none;
+}
+
+.loginbox-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: Alpha(Opacity=80); /*100为不透明，0为全透明*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.loginbbb {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    z-index: 10000;
+    top: 110px;
+    background-color: transparent;
+}
+
+.loginbbbx {
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qqLoginIframe {
+    width: 700px;
+    height: 400px;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dhtx {
+    width: 300px;
+    height: 168px;
+    border: 1px solid #bcbcbc;
+    position: absolute;
+    z-index: 10010;
+    left: 287px;
+    top: 279px;
+    background-color: #000000;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    filter: Alpha(Opacity=50); /*100为不透明，0为全透明*/
+    position: absolute;
+}
+
+.txs {
+    text-align: center;
+    font-size: 18px;
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    z-index: 10010;
+    left: 287px;
+    top: 356px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.zhsrd {
+    width: 80px;
+    height: 42px;
+    background-color: transparent;
+    z-index: 10010;
+    position: absolute;
+    left: 390px;
+    top: 446px;
+    cursor: pointer;
+}
+
+/* 玩法 */
+.play-rlues,.card-record{
+    cursor: pointer;
+}
+
+/** 充值盒子 **/
+.rechargebox,.buy-card {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 20000;
+}
+
+.rechargezzc,.buy-card-rechargezzc {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: Alpha(Opacity=80); /*100为不透明，0为全透明*/
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.rechargebox_1,.buy-card-rechargebox_1 {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    z-index: 100;
+    top: 120px;
+}
+
+.rechargebox_1_1,.buy-card-rechargebox_1_1 {
+    width: 520px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282d63;
+}
+
+.rechargecontent_1 {
+    /* float: left; */
+    display: inline-block;
+    width: 100%;
+    padding: 20px 20px 0;
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    color: #fcd073;
+    font-weight: 700;
+    position: relative;
+    box-sizing: border-box;
+}
+.rechargecontent_1 .rechargecontent_1_close{
+    
+}
+.rechargecontent_1_1 {
+    width: 30px;
+    height: 40px;
+    float: right;
+    background: url("../images/skin1/box-alert.png") no-repeat -2px -82px;
+    cursor: pointer;
+    margin-right: -45px;
+    margin-top: -2px;
+}
+
+.rechargecontent_2 {
+    width: 478px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #9599cd;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.rechargecontent_2center {
+    text-align: center;
+}
+
+.rechargecontent_3 {
+    width: 478px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+
+.rechargecontent_3_1_btns {
+    width: 80px;
+    height: 36px;
+    border: 1px solid #333;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Arial;
+    transition: all .3s;
+    background-color: #4f57b1;
+    float: left;
+    position: relative;
+}
+
+.rechargechoosed {
+    border-color: #d9bd6f;
+}
+.rechargechoosed s{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: 0;
+    right: 0;
+    background: url('../images/skin1/box-alert.png') no-repeat -96px -90px;
+}
+
+/* 微信  支付宝 */
+.reg-payType {
+    margin-top: 10px;
+    width: 478px;
+    height: 38px;
+    color: #fff;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all .3s;
+    background: #4f57b1;
+}
+.reg-payType .item {
+    position: relative;
+    width: 50%;
+    float: left;
+    border: 1px solid #4f57b1;
+    box-sizing: border-box;
+}
+.ali, .weixin {
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+}
+.weixin {
+    background: url('../images/skin1/modal.png') no-repeat -208px -502px;
+}
+.ali {
+    background: url('../images/skin1/modal.png') no-repeat -182px -502px;
+}
+.reg-payType .item.active {
+    border: 1px solid #d9bd6f;
+}
+.reg-payType .item.active s {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: 0;
+    right: 0;
+    background: url('../images/skin1/box-alert.png') no-repeat -96px -90px;
+}
+
+.rechargecontent_4 {
+    width: 478px;
+    height: 244px;
+    line-height: 36px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #13184f;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.qrcodebox {
+   padding-top: 20px;
+   height: 170px;
+   position: relative;
+}
+.qrcodebox .qrcodeCanvas_reg{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 35px;
+    left: 169px;
+    background: url('../images/loading.gif') no-repeat 50%;
+}
+
+.code-img,.ccreload {
+    width: 170px;
+    height: 170px;
+}
+
+.qrcodebox .ccreload {
+    position: absolute;
+    top: 20px;
+    left: 154px;
+    background: hsla(0,0%,7%,.5);
+    filter: alpha(opacity=50);
+    color: #fff;
+}
+.qrcodebox .ccreload em {
+    position: relative;
+    float: left;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    line-height: 20px;
+    cursor: pointer;
+    font-style: normal;
+}
+
+
+.rechargecontent_5 {
+    width: 450px;
+    height: 74px;
+    margin-left: 25px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    line-height: 60px;
+}
+
+.rechargecontent_5_btns {
+    width: 74px;
+    height: 74px;
+    margin-right: 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.rechargecontent_5_btns img {
+    width: 60px;
+    height: 60px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+.rechargecontent_5_0 {
+    width: 80px;
+    height: 60px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* .rechargecontent_5_choosed {
+    background: url(/static/PC/image/lol/select-kuang.png) no-repeat 0 0;
+} */
+
+/** 抽奖1次 **/
+.cjbox1 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 50000;
+}
+
+.cjzzc1 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: Alpha(Opacity=80); /*100为不透明，0为全透明*/
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.cjcontent1 {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    z-index: 100;
+    top: 120px;
+}
+
+.cjcontent1_1 {
+    width: 400px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282d63;
+    text-align: center;
+}
+
+.cjcontent1_1_1 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f1bb00;
+    height: 80px;
+    line-height: 120px;
+}
+
+.cjcontent1_1_2 {
+    width: 100%;
+}
+
+.cjcontent1_1_2_1 {
+    position: relative;
+    width: 196px;
+    height: 270px;
+    margin-left: 102px;
+}
+
+.cjcontent1_1_2_1_1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+}
+
+.cjcontent1_1_2_1_2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    width: 150px;
+    height: 234px;
+    margin-left: 23px;
+    top: 20px;
+}
+
+.cjcontent1_1_3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.cjcontent1_1_4 {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+.cjcontent1_1_5 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cjcontent1_1_5_1 {
+
+}
+
+.cjcontent1_1_5_1_1 {
+    width: 161px;
+    height: 40px;
+    line-height: 40px;
+    color: #212851;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background: url(/static/PC/image/lol/modal1016.png) no-repeat 0 0;
+    display: inline-block;
+}
+
+.cjcontent1_1_5_1_2 {
+    width: 161px;
+    height: 40px;
+    line-height: 40px;
+    color: #212851;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background: url(/static/PC/image/lol/modal1016.png) no-repeat 0 0;
+    display: inline-block;
+}
+
+.cjcontent1_1_6 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.cjcontent1_1_6_1 {
+    color: #f1bb00;
+}
+
+/** 抽奖10次 **/
+.cjbox2 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 50000;
+}
+
+.cjzzc2 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: Alpha(Opacity=80); /*100为不透明，0为全透明*/
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.cjcontent2 {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    z-index: 100;
+    top: 20px;
+}
+
+.cjcontent2_1 {
+    width: 1050px;
+    height: 662px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282d63;
+    text-align: center;
+}
+
+.cjcontent2_1_1 {
+    width: 800px;
+    margin-left: 30px;
+    text-align: left;
+    color: #f1bb00;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.cjcontent2_1_2 {
+    width: 840px;
+    height: 500px;
+    margin-left: 20px;
+    /* float: left; */
+    display: inline-block;
+}
+
+.cjcontent2_1_2_1 {
+    position: relative;
+    width: 167px;
+    height: 231px;
+    float: left;
+}
+
+.cjcontent2_1_2_1_1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+}
+
+.cjcontent2_1_2_1_2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    width: 130px;
+    height: 198px;
+    margin-left: 15px;
+    top: 15px;
+}
+
+.cjcontent2_1_3 {
+    display: inline-block;
+    width: 2px;
+    height: 504px;
+    background: url('../images/skin1/line.png') no-repeat 0 0;
+    margin-top: -40px;
+}
+
+.cjcontent2_1_4 {
+    width: 180px;
+    float: right;
+    margin-top: -27px;
+}
+
+.cjcontent2_1_4_1 {
+    color: #f1bb00;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.cjcontent2_1_5 {
+    width: 100%;
+    margin-top: 40px;
+    height: 80px;
+    background-color: #252a59;
+}
+
+.cjcontent2_1_5_1 {
+
+}
+
+.cjcontent2_1_5_1_1 {
+    width: 161px;
+    height: 40px;
+    line-height: 40px;
+    color: #212851;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background: url(/static/PC/image/lol/modal1016.png) no-repeat 0 -80px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.cjcontent2_1_5_1_2 {
+    width: 161px;
+    height: 40px;
+    line-height: 40px;
+    color: #212851;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background: url(/static/PC/image/lol/modal1016.png) no-repeat 0 0;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.cjcontent2_1_5_1_3 {
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 20px;
+}
+
+.cjcontent2_1_6_1 {
+    color: #f1bb00;
+}
+
+/** 我的背包 **/
+.backpackbox {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 50000;
+    display: none;
+}
+
+.backpackboxzzc {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: Alpha(Opacity=80); /*100为不透明，0为全透明*/
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.backpackbox_1 {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* height: 0px; */
+}
+
+.backpackc_1 {
+    width: 1018px;
+    height: 638px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #0e364b;
+    background-color: #282d63;
+}
+
+.backpackc_1_1 {
+    color: #f1bb00;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    position: relative;
+}
+
+.backpackc_1_1_1 {
+    float: left;
+    background: url('../images/skin1/modal.png') no-repeat 0 -482px;
+    width: 253px;
+    height: 20px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.backpackc_1_1_2 {
+    float: left;
+    font-size: 30px;
+    color: #fcd073;
+    text-align: center;
+    width: 180px;
+    font-weight: 700;
+}
+
+.backpackc_1_1_3 {
+    float: left;
+    background: url('../images/skin1/modal.png') no-repeat 0 -462px;
+    width: 253px;
+    height: 20px;
+    margin-top: 30px;
+}
+/* 叉叉 */
+.iconfont{
+    background-repeat: no-repeat;
+    min-width: 30px;
+    height: 100%;
+    display: inline-block;
+    background-image: url('../images/skin1/box-alert.png');
+}
+.icon-close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-position: -2px -114px;
+}
+.icon-close:hover {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-position: -2px -82px;
+}
+.ng-pop-close {
+    width: 30px;
+    height: 40px;
+    float: right;
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.backpackc_1_2 {
+    height: 60px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* qq账号错误提示 */
+.phone-error{
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 20px;
+    width: 310px;
+    margin: 0px;
+    margin-top: 5px;
+    color: red;
+}
+.backpackc_1_2 .tip{
+    height: 54px;
+    text-align: right;
+    padding-top: 6px;
+    color: #c9c9c9;
+    margin: 0px;
+    font-weight: 500;
+    list-style: none;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.backpackc_1_2 .tip a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.backpackc_1_2 div {
+    float: left;
+}
+
+.backpackc_1_2_1 {
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    color: #e6c78c;
+    line-height: 28px;
+    margin-left: 20px;
+}
+
+.backpackc_1_2_2 {
+    font-size: 14px;
+    line-height: 32px;
+    color: #fcd073;
+    width: 160px;
+    text-align: left;
+    height: 20px;
+}
+.backpackc_1_2_2 .backpackc_1_2_2_1{
+    line-height: 22px;
+    padding-left: 10px;
+
+}
+/* .backpackc_1_2_2_2 {
+    width: 100%;
+    margin: -1px;
+    border: 1px solid #535ca6;
+} */
+.backpackc_1_2_2_2{
+    float: left;
+}
+.backpackc_1_2_2_2 .backpackc_1_2_2_2_qq{
+    
+    width: 160px;
+    height: 32px;
+    border: 1px solid #535ca6;
+    padding: 8px 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+.backpackc_1_2_3 {
+    color: white;
+    width: 60px;
+    text-align: center;
+}
+
+.backpackc_1_2_3_1, .backpackc_1_2_3_2 {
+    text-decoration: underline;
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+    line-height: 32px;
+    font-size: 14px;
+}
+.backpackc_1_2_3_2{
+    display: none;
+}
+
+.rng-top-msg {
+    float: left;
+    height: 40px;
+    width: 660px;
+    margin-left: 10px;
+}
+
+.backpackc_1_2_4 {
+    float: left;
+    color: #e6c78c;
+    padding-top: 12px;
+    font-size: 13px;
+}
+
+.backpackc_1_2_5 {
+    width: 138px;
+    height: 37px;
+    line-height: 37px;
+    color: #e4b85d;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    background: url('../images/skin1/modal-btn.png') no-repeat 0 0;
+}
+
+/* .backpackc_1_2_5:hover {
+    background: url('../images/skin1/modal-btn.png') no-repeat 0 -160px;
+} */
+
+.backpackc_1_2_6 {
+    width: 138px;
+    height: 37px;
+    line-height: 37px;
+    color: #e4b85d;
+    float: right;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    background: url('../images/skin1/modal-btn.png') no-repeat 0 -42px;
+}
+
+/* .backpackc_1_2_6:hover {
+    background: url('../images/skin1/modal-btn.png') no-repeat 0 -222px;;
+} */
+
+.backpackc_1_3 {
+    width: 980px;
+    margin-left: 20px;
+    height: 500px;
+    margin-top: 4px;
+}
+
+.backpackc_1_3_1 {
+    float: left;
+    background-color: #32387b;
+    width: 310px;
+    height: 484px;
+    color: #855807;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.backpackc_1_3_1_1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #858bef;
+}
+
+.backpackc_1_3_1_2 {
+    line-height: 22px;
+}
+
+.ycolor {
+    color: #855807;
+}
+
+.pcolor {
+    color: #a09b8c;
+}
+.pcolor3{
+    color:#acb4f9;
+    line-height: 22px;
+    /* width: 265px; */
+    display: inline-block;
+    padding-left: 25px;
+    box-sizing: border-box;
+    position: relative;
+}
+.pcolor3 .icon-tip {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    /* display: inline-block; */
+    position: absolute;
+    top: 2px;
+    left: 0;
+    background: url('../images/skin1/modal.png') no-repeat -183px -528px;
+}
+.pcolor3  p{
+    color: #acb4f9;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+/* .jgspan {
+    width: 20px;
+    height: 20px;
+    background: url(/static/PC/image/lol/modal.png) no-repeat -183px -528px;
+    float: left;
+} */
+
+.backpackc_1_3_2 {
+    float: left;
+    height: 419px;
+    width: 658px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #444a90;
+}
+
+.tip-qq{
+    margin: 0px;
+    color: #e6c78c;
+    line-height: 22px;
+    margin-left: 320px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.tip-qq .c-gold {
+    color: white;
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+
+.btitle {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.btr {
+    width: 100%;
+    color: #e6c78c;
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    /* border-top: 1px solid #444a90; */
+    border-bottom: 1px solid #444a90;
+}
+
+.btd_1 {
+    width: 25%;
+    float: left;
+}
+
+.btd_2 {
+    width: 30%;
+    float: left;
+}
+
+.btd_3 {
+    width: 20%;
+    float: left;
+    color: #e6c78c;
+}
+
+.bcontent-write{
+    text-decoration: underline;
+    color: #edb838;
+    text-align: center;
+    line-height: 46px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.btd_4 {
+    width: 25%;
+    float: left;
+}
+.btd_4>a{
+    margin: 0 10px;
+}
+.bcontent {
+    width: 100%;
+    height: 373px;
+    overflow: auto;
+}
+
+/** 弹出框 **/
+.alertbox,.recharge-qq,.write-qq {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    z-index: 50000;
+}
+
+.alertzzc,.recharge-qq-alertzzc,.write-qq-alertzzc {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: Alpha(Opacity=80); /*100为不透明，0为全透明*/
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.alertcontentx,.recharge-qq-alertcontentx,.write-qq-alertcontentx {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    top: 160px;
+}
+
+.alertcontent,.recharge-qq-alertcontent,.write-qq-alertcontent {
+    width: 500px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282d63;
+    position: relative;
+}
+
+.alertcontent_1,.recharge-qq-alertcontent_1,.write-qq-alertcontent_1 {
+    width: 100%;
+    padding: 20px 20px 0;
+    position: relative;
+    text-align: left;
+    font-size: 18px;
+    color: #fcd073;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.alertcontent_1_1 {
+    width: 30px;
+    height: 40px;
+    float: right;
+    background: url('../images/skin1/box-alert.png') no-repeat -2px -82px;
+    cursor: pointer;
+    margin-right: -24px;
+    margin-top: -4px;
+}
+
+.alertcontent_2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    background: url('../images/skin1/modal.png') no-repeat -1px -502px;
+}
+
+.alertcontent_3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffc700;
+    width: 418px;
+    text-align: center;
+    /* height: 40px; */
+    line-height: 28px;
+    margin-top: 7px;
+    margin-left: 41px;
+    margin-bottom: 15px;
+}
+
+.alertcontent_4 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #9599cd;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
+
+.alertcontent_5,.recharge-qq-alertcontent_5 {
+    width: 156px;
+    height: 50px;
+    line-height: 50px;
+    color: #e4b85d;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    bottom: 20px;
+    left: 172px;
+    background: url('../images/skin1/modal-btn.png') no-repeat 0 -84px;
+}
+
+.alertcontent_5:hover {
+    background: url("../images/skin1/modal-btn.png") no-repeat 0 -134px;
+}
+/* 优惠券 */
+.yhjbox,.wuyuan,.first-login,.carnival {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 50000;
+}
+.yhjbox,.carnival{
+    display: none;
+}
+.yhjzzc,.wuyuanbg,.first-login-alertzzc,.carnivalbg {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: Alpha(Opacity=80); /*100为不透明，0为全透明*/
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+.yhjcontent1,.wuyuanbg-content1,.first-login-alertcontentx,.carnival-content1{
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    z-index: 100;
+    top: 120px;
+}
+.yhjcontent1_1,.wuyuan-yhjcontent1_1,.first-login-alertcontent,.carnival-yhjcontent1_1{
+    position: relative;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282d63;
+    text-align: center;
+    border: 1px solid #3b4394;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.yhjcontent1_1_1{
+    height:40px;
+    line-height: 40px;
+    color: #f1bb00;
+    font-size: 24px;
+}
+.yhjcontent1_1_2 {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fefefe;
+}
+.yhjcontent1_1_3 {
+    margin-top: 40px;
+    width: 100%;
+    padding-bottom: 20px;
+    font-size: 0;
+}
+.yhjcontent1_1_3 .yhjcontent1_1_3_1{
+    width: 100%;
+    height: 180px;
+    font-size: 0;
+    position: relative;
+}
+.yhjcontent1_1_3 .yhjcontent1_1_3_1 img{
+    width: 248px;
+    height: 118px;
+}
+.yhjcontent1_1_3_1_2 {
+    width: 30px;
+    line-height: 118px;
+    text-align: center;
+    font-size: 20px;
+    color: #f1bb00;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.yhjcontent1_1_3_1_1{
+    margin: 10px auto;
+    width: 161px;
+    height: 40px;
+    line-height: 40px;
+    color: #212851;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background: url(/static/PC/image/lol/btn_bg_1.png) no-repeat 0 0;
+    display: inline-block;
+}
+.yhjcontent1_1_4_1 {
+    width: 161px;
+    height: 40px;
+    line-height: 40px;
+    color: #212851;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background: url(/static/PC/image/lol/btn_bg_1.png) no-repeat 0 0;
+    display: inline-block;
+}
+
+
+/* 全部加载动画 */
+#bodyLoading {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+}
+#bodyLoading .loading-body {
+    position: static;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    background-color: hsla(0,0%,7%,.85);
+    filter: alpha(opacity=85);
+}
+#bodyLoading .loading-core {
+    position: absolute;
+    width: 58px;
+    height: 10px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('../images/body-loading.gif') no-repeat 0 0;
+}
+
+
+/* 弹幕 */
+.container {
+    position: absolute;
+    top: 822px;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    
+}
+.multi-danmu {
+    position: absolute;
+    height: 130px;
+    left: 100%;
+    top: 0;
+    z-index: 1;
+    
+}
+.multi-danmu .multi-content {
+    top: 10px;
+    float: left;
+    color: #ffffff;
+    background: url('../images/skin1/danmu.png') 0 0 no-repeat;
+    width: 500px;
+    height: 130px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 110px;
+    margin-left: 160px;
+    box-sizing: border-box;
+}
+.multi-danmu .multi-content{
+    margin-left: 0px;
+    line-height: 84px;
+    padding-left: 200px;
+}
+.multi-danmu .name {
+    max-width:110px;
+    display:inline-block;
+    vertical-align:middle;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+    color:#ffd801;
+    font-weight:600;
+    margin-top:-2px
+}
+
+/* 我的卡包 */
+.ng-pop-pri{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 50000;
+}
+.ng-pop-border1 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: Alpha(Opacity=80); /*100为不透明，0为全透明*/
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+.ng-pop-border2 {
+    width: 620px;
+    z-index: 99999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #0e364b;
+    border-radius: 3px;
+    position: absolute;
+    text-align: center;
+    background-color: #282d63;
+    box-sizing: border-box;
+}
+
+.my-coupon-list {
+    /* float: left; */
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 79px;
+ 
+    /* font-size: 0px; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    margin-bottom: 55px; 
+}
+.mCustomScrollBox {
+    position: relative;
+    /* overflow: hidden; */
+    height: 100%;
+    max-width: 100%;
+    outline: 0;
+    direction: ltr;
+  
+}
+.mCSB_container{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 460px;
+}
+.mCustomScrollBox .coupon-item {
+    float: left;
+    width: 460px;
+    position: relative;
+    height: 125px;
+    overflow: hidden;
+    background: url('../images/skin1/cou-bg.png') no-repeat;
+    margin-bottom: 10px;
+    color: #ff4e00;
+}
+.coupon-item label {
+    font-size: 60px;
+    position: absolute;
+    left: 120px;
+    font-weight: 700;
+    line-height: 125px;
+}
+.coupon-item span {
+    position: absolute;
+    left: 160px;
+    top: 40px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.coupon-item p {
+    position: absolute;
+    left: 160px;
+    top: 70px;
+    color: #855807;
+    margin: 0px;
+    font-size: 14px;
+}
+.coupon-item s {
+    font-style: normal;
+    position: absolute;
+    color: #8495dc;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    top: 28px;
+    right: 35px;
+}
+.coupon-item em {
+    font-style: normal;
+    position: absolute;
+    right: 80px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 21px;
+}
+.my-coupon-list .time-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 24px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background: url('../images/skin1/time-bg.png') no-repeat 0 0;
+    font-weight: 300;
+}
+
+.scroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #000;
+    font-size: .7rem;
+    font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica,"黑体",Arial,Tahoma;
+    /* height: 100%; */
+}
+/*滚动条样式*/
+.scroll::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+}
+.scroll::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-width: 0px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 5px rgb(106,107,160);
+    background: rgba(56,61,111,0);
+}
+.scroll::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    border-width: 0px;
+    -webkit-box-shadow: inset 0 0 5px rgb(106,107,160);
+    border-radius: 2px;
+    background: rgba(56,61,111,0);
+}
+
+/* 一键充值 */
+/* .recharge-qq{
+    display: inline-block;
+} */
+.recharge-qq-alertcontent{
+    height: 300PX;
+}
+.bing-content{
+    padding: 30px;
+    box-sizing: border-box;
+}
+.bind-qq-title {
+    font-size: 13px;
+    color: #9599cd;
+    margin-bottom: 10px;
+}
+.bind-qq-input {
+    width: 320px;
+    height: 40px;
+    background: #13184f;
+    border: 1px solid #0e364b;
+    padding: 5px 10px;
+    line-height: 40px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.bind-qq-m1 {
+    margin: 0px;
+    font-size: 13px;
+    color: #9599cd;
+    line-height: 30px;
+}
+.bind-qq-m1 .icon-tip {
+    width: 14px;
+    height: 14px;
+    margin-top: -4px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../images/skin1/modal.png') no-repeat -61px 0;
+}
+.bind-qq-m2 {
+    line-height: 30px;
+    color: #9599cd;
+    margin: 0;
+    font-weight: 500;
+    list-style: none;
+}
+
+/* 购买卡牌 */
+.buy-card-rechargebox_1_1{
+    height: 470px;
+}
+.reg-title {
+    /* float: left; */
+    width: 100%;
+    margin-bottom: 10px;
+    color: #9599cd;
+    font-size: 16px;
+    text-align: center;
+}
+.reg-title.bold {
+    margin-bottom: 10px;
+    color: #f1bb00;
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+}
+.reg-title label {
+    color: #f1bb00;
+    font-size: 16px;
+}
+
+/* 五元充值成功后的弹框（开一个) */
+.wuyuan{
+    display: none;
+}
+.wuyuan-yhjcontent1_1{
+    padding: 0px;
+    height: 520px;
+    
+}
+.box-open-con-title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f1bb00;
+    overflow: hidden;
+}
+.box-open-con-close {
+    float: right;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: #f90;
+    background: url('../images/skin1/box-alert.png') no-repeat 2px -76px;
+}
+.box-open-con-close:hover {
+    background: url('../images/skin1/box-alert.png') no-repeat 2px -108px;
+}
+.box-open-con-html {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.box-open-con-title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f1bb00;
+    overflow: hidden;
+}
+.box-open-con-html ul {
+    margin: 0px;
+    padding: 0px;
+}
+.box-open-con-html li {
+    position: relative;
+    width: 196px;
+    height: 315px;
+    display: inline-block;
+}
+.goods-bg {
+    width: 196px;
+    height: 270px;
+    display: inline-block;
+    /* background: url('../images/skin1/goods-bg.png') no-repeat 0 0; */
+}
+.box-open-con-html li img {
+    width: 140px;
+    height: 224px;
+    border-radius: 18px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.box-open-con-html h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px;
+    white-space: nowrap;
+    margin-top: -10px;
+}
+.box-open-con-html p {
+    margin: 0px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.box-open-action {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.box-open-action>div {
+    display: inline-block;
+}
+.box-open-action span {
+    float: left;
+    margin-left: 5px;
+}
+.box-open-action .btn-lol2, .box-open-action .btn-lol2-blue,.dilog-con-action .btn-lol2-blue,.dilog-con-action .btn-lol2,.first-login-alertcontent .btn-lol2{
+    width: 156px;
+    height: 50px;
+    line-height: 50px;
+    color: #e4b85d;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background: url('../images/skin1/modal-btn.png') no-repeat 0 -84px;
+    display: inline-block;
+}
+.box-open-action .btn-lol2:hover, .box-open-action .btn-lol2-blue:hover,.dilog-con-action .btn-lol2:hover,.first-login-alertcontent .btn-lol2:hover{
+    background: url("../images/skin1/modal-btn.png") no-repeat 0 -134px;
+}
+
+.box-open-footer {
+    padding: 15px 0;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.box-open-footer label {
+    color: #f1bb00;
+    font-size: 16px;
+}
+
+/* 抽十次 */
+.dilog-con-action {
+    text-align: left;
+    padding: 15px 95px;
+    background: #252a59;
+    color: #fff;
+}
+
+.dilog-con-action .btn-lol2-blue{
+    background: url('../images/skin1/modal-btn.png') no-repeat 0 -184px;
+}
+.cjcontent2_1_2_1 .info {
+    position: absolute;
+    bottom: 17px;
+    left: 20px;
+    right: 19px;
+    background: #000;
+    background: rgba(0,0,0,.5);
+    filter: alpha(opacity=80);
+    height: 70px;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 0 0 14px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+    box-sizing: border-box;
+}
+.cjcontent2_1_2_1 .info .name {
+    color: #ffc700;
+    margin-bottom: 5px;
+}
+.cjcontent2_1_2_1 .info p{
+
+    margin: 0;
+    font-weight: 500;
+}
+.dilog-con-action em {
+    color: #f1bb00;
+    font-style: normal;
+}
+.dilog-con-action .btn-lol2{
+    float: right;
+}
+
+
+/* 充值账号 */
+.write-qq-alertcontent{
+    height: 300px;
+}
+.bind-qq-con {
+    padding: 30px;
+    width: 100%;
+    text-align: left;
+
+}
+.bind-qq-ul {
+    margin-top: -20px;
+}
+.bind-qq-li {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0;
+    font-size: 13px;
+    color: #9599cd;
+    cursor: pointer;
+}
+.bind-qq-li .box {
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: #282d63;
+    border-radius: 50%;
+    border: 1px solid #747ccb;
+}
+.bind-qq-li.active .box {
+    background-color: #747ccb;
+}
+.bind-qq-con .padding {
+    padding-left: 25px;
+}
+
+/* qq登录弹窗 */
+.dilog-iframe {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+}
+.dilog-iframe {
+    /* float: left; */
+    width: 100%;
+    height: 100%;
+    /* position: static; */
+    background: #111;
+    background: hsla(0,0%,7%,.5);
+    filter: alpha(opacity=50);
+}
+.iframe-wrap {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 760px;
+    height: 400px;
+}
+.dilog-iframe iframe {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    border: none;
+    display: block;
+    background-color: #fff;
+    float: left;
+}
+.closeIframe {
+    width: 50px;
+    height: 50px;
+    background: url('../images/skin1/box-alert.png') no-repeat -35px -75px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -10px;
+}
+
+/* 每天首次登录宝箱 */
+.first-login{
+    display: none;
+}
+.first-login-alertcontent{
+    width: 400px;
+    height: 480px;
+    box-sizing: border-box;
+}
+.first-login-alertcontent .ng-pop-title.bold {
+    font-size: 22px;
+    color: #f1bb00;
+    text-align: center;
+    font-weight: 700;
+    padding: 40px 0px 0px;
+}
+.first-login-alertcontent .freebox .img {
+    width: 340px;
+    height: 200px;
+    background: url('../images/skin1/freebox.jpg') no-repeat 0 0;
+    margin: 35px auto;
+}
+
+
+/* 首次登录赠送代金券 */
+.first-login-gifts .ng-pop-border2{
+    height: 560px;
+    box-sizing: border-box;
+}
+.first-login-gifts .mCustomScrollBox{
+    max-height: 300px;
+}
+.first-login-gifts .alertcontent_1 span{
+    font-size: 32px;
+    color: #f1bb00;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.first-login-gifts .my-coupon-list{
+    margin-bottom: 0px;
+}
+
+.first-login-gifts .coupon-pop-title,.first-login-gifts .coupon-pop-p{
+    color: #d8cfc2;
+    margin-top: 10px;
+}
+.first-login-gifts .coupon-pop-footer {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 40px;
+    text-align: center;
+}
+.first-login-gifts .coupon-pop-footer .btn{
+    /* width: 191px;
+    height: 62px;
+    line-height: 62px;
+    color: #ffd872; */
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background: url('../images/skin1/modal-btn.png') no-repeat 0 0;
+    display: inline-block;
+}
+
+/* .first-login-gifts .coupon-pop-footer .btn:hover {
+    background: url("../images/skin1/modal-btn.png") no-repeat 0 -62px;
+} */
+

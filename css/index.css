@@ -1,0 +1,869 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Microsoft YaHei, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+/* 清除浮动 */
+.clearfix:after{
+    content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;  
+}
+
+.bgbox {
+    position: absolute;
+    width: 100%;
+    height: 1750px;
+    top: 0px;
+    left: 0px;
+    background: url('../images/skin1/bg.jpg') no-repeat top #12151e;
+    z-index: -10;
+}
+
+.contentbox {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.jsbj {
+    color: #ffd33c;
+}
+
+
+.mainbox {
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    background: transparent;
+}
+
+/** 登录、登录信息 **/
+.loginboxout {
+    height: 28px;
+    margin-top: 144px;
+    margin-bottom: 5px;
+}
+
+.loginboxout .loginbox {
+    height: 100%;
+    width: 300px;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    background: url('../images/skin1/login-bg.png') no-repeat 50%;
+}
+.loginboxout .login-suss{
+    width: 100%;
+}
+.loginboxout .login-suss b{
+    color: #ffd33c;
+    color: #ffd33c;
+}
+ .loginbox .loginbtn {
+}
+
+.bcolor {
+    color: #ffd33c;
+    font-weight: bolder;
+}
+
+.bbtns {
+    color: #ffd33c;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/**详情**/
+.infobox {
+    width: 100%;
+    height: 46px;
+    z-index: 10000;
+    position: absolute;
+}
+
+.infobox .czbox {
+    height: 100%;
+    float: left;
+    width: auto;
+}
+
+.infobox .czbox .czbtn {
+    height: 40px;
+    float: left;
+    width: 118px;
+    background: url('../images/skin1/btnSprite.png') no-repeat 0 0;
+    cursor: pointer;
+    line-height: 40px;
+    color: #e4b85d;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.infobox .czbox .czbtn:hover {
+    background: url('../images/skin1/btnSprite.png') no-repeat 0 -41px;
+}
+
+.infobox .czbox .yebox {
+    float: left;
+    background: url('../images/skin1/sprite.png') no-repeat 0 -280px;
+    height: 36px;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+.infobox .czbox .yebox .my-balance,.infobox .czbox .yebox .my-coupon{
+    cursor: pointer;
+}
+.infobox .czbox .yebox b{
+    color: #ffd33c;
+}
+.infobox .czbox .yebox .yhspan,
+.infobox .czbox .yebox .yespan {
+    color: #ffd33c;
+}
+
+.infobox .czbox .yebox .box{
+    margin-right: 20px;
+}
+
+.infobox .czbox .yebox .yhspanbtn {
+    color: #ffd33c;
+    padding: 0 10px;
+}
+
+.infobox .bbbox {
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    width: 118px;
+    color: #e4b85d;
+    font-weight: 600;
+    cursor: pointer;
+    background: url('../images/skin1/btnSprite.png') no-repeat 0 0;
+}
+
+.infobox .bbbox:hover {
+    background: url('../images/skin1/btnSprite.png') no-repeat 0 -41px;
+}
+
+/** 商品轮播 **/
+.goodsbox {
+    width: 100%;
+    height: 390px;
+    margin-top: 6px;
+    background-color: transparent;
+    overflow: visible;
+}
+
+.goodsbox .goodsboxx {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.goodsbox .goodsboxx .lastpagebtn {
+    position: absolute;
+    width: 47px;
+    height: 40px;
+    left: -67px;
+    top: 200px;
+    color: #b0b0b1;
+    text-align: center;
+    cursor: pointer;
+    background: url('../images/skin1/sprite.png') no-repeat -132px 0;
+}
+
+.goodsbox .goodsboxx .lastpagebtn:hover {
+    background: url('../images/skin1/sprite.png') no-repeat -132px -39px;
+    color: #f4cb56;
+}
+
+.goodsbox .goodsboxx .nextpagebtn {
+    position: absolute;
+    width: 47px;
+    height: 40px;
+    right: -67px;
+    top: 200px;
+    color: #b0b0b1;
+    text-align: center;
+    cursor: pointer;
+    background: url('../images/skin1/sprite.png') no-repeat -179px 0;
+    z-index: 5000;
+}
+
+.goodsbox .goodsboxx .nextpagebtn:hover {
+    background: url('../images/skin1/sprite.png') no-repeat -179px -39px;
+    color: #f4cb56;
+}
+
+.goodsbox .goodsboxx .lunboboxout {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox {
+    width: 4800px;
+    height: 100%;
+    position: relative;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .gameitemboxs {
+    width: 212px;
+    height: 315px;
+    text-align: center;
+    position: absolute;
+}
+
+.showingl {
+    left: -512px;
+}
+
+.showing1 {
+    left: 0px;
+}
+
+.showing2 {
+    left: 220px;
+}
+
+.showing3 {
+    left: 460px;
+}
+
+.showing4 {
+    left: 723px;
+}
+
+.showing5 {
+    left: 943px;
+}
+
+.showingr {
+    left: 1500px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .hc1 {
+    width: 255px;
+    height: 380px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .hc1 .imgbg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .hc1 .imgfile {
+    width: 195px;
+    height: 320px;
+    margin-top: 30px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .hc2 {
+    width: 232px;
+    height: 340px;
+    margin-top: 50px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .hc2 .imgbg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .hc2 .imgfile {
+    width: 192px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .hc3 {
+    width: 212px;
+    height: 315px;
+    margin-top: 68px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .hc3 .imgbg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+}
+
+.goodsbox .goodsboxx .lunboboxout .lunbobox .hc3 .imgfile {
+    width: 176px;
+    height: 279px;
+    margin-top: 18px;
+}
+
+/** 查看奖励 **/
+.ckjlbox {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.ckjlbox .ckjlbg {
+    width: 422px;
+    height: 114px;
+    background: url('../images/skin1/goods-arrow.png') no-repeat 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -74px;
+    position: relative;
+}
+
+.ckjlbox .ckjlbg .cljlbtn {
+    position: absolute;
+    color: #ffd33c;
+    text-decoration: underline;
+    left: 310px;
+    top: 73px;
+    cursor: pointer;
+}
+
+/**开启**/
+.buybox {
+    width: 100%;
+    height: 95px;
+    margin-top: 30px;
+}
+
+.buybox .kqbtns {
+    width: 209px;
+    height: 67px;
+    float: left;
+    line-height: 67px;
+    color: #e4b85d;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    /* background: url('../images/skin1/btnSprite.png') no-repeat 0px -81px; */
+    cursor: pointer;
+}
+
+/* .buybox .kqbtns:hover {
+    background: url('../images/skin1/btnSprite.png') no-repeat 0 0;
+} */
+
+.buybox .kq1btn {
+    margin-left: 341px;
+    background: url('../images/skin1/btnSprite.png') no-repeat 0px -81px;
+}
+.buybox .kq1btn:hover {
+    background: url('../images/skin1/btnSprite.png') no-repeat 0px -148px;
+}
+.buybox .kq11btn {
+    margin-left: 100px;
+    background: url('../images/skin1/btnSprite.png') no-repeat 0px -215px;
+}
+.buybox .kq11btn:hover {
+    background: url('../images/skin1/btnSprite.png') no-repeat 0px -282px;
+}
+/** 其它用户 **/
+.otherusergetbox {
+    width: 100%;
+    height: 461px;
+}
+
+.otherusergetbox .otherusergettitle {
+    width: 428px;
+    height: 71px;
+    background: url('../images/skin1/title.png') 0 0 no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.otherusergetbox .otheruserinfo {
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.otherusergetbox .otheruserinfo .otheruserlist {
+
+}
+
+.otherusergetbox .otheruserinfo .otheruserlist .otheruserone {
+    width: 188px;
+    height: 296px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #2c3987;
+    position: relative;
+}
+
+.otheruserone_1 {
+    width: 100%;
+    height: 296px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.otheruserone_1 img {
+    width: 100%;
+}
+
+.otheruserone_2 {
+    height: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #000;
+    background: rgba(0, 0, 0, .85);
+
+    position: absolute;
+    left: 0px;
+    top: 206px;
+    z-index: 10;
+    width: 158px;
+    margin-left: 0px;
+}
+
+.otheruserone_2_1 {
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.otheruserone_2_2 {
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.otheruserone_2_3 {
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    color: #787497;
+}
+
+.otheruserone_2_2_1 {
+    color: #ffd33c;
+    font-weight: bolder;
+}
+
+.otheruserone_3 {
+    height: 60px;
+    padding-left: 15px;
+    background: rgba(0, 0, 0, .85);
+    position: absolute;
+    left: 0px;
+    top: 266px;
+    z-index: 10;
+}
+
+.rulebox {
+    width: 100%;
+}
+
+.rulebox .ruletitle {
+    width: 428px;
+    height: 71px;
+    background: url('../images/skin1/title.png') 0 -71px no-repeat;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rulebox .rulecontentbox {
+    width: 100%;
+}
+
+.rulebox .rulecontentbox .rulecontents {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.rulecontentstitle {
+    font-size: 22px;
+    color: #858bef;
+    font-weight: 600;
+}
+
+.rulecontentszs {
+    margin-top: 10px;
+}
+
+.rulecontentszs_1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #7b8bff;
+  
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+.rulecontentszs_2 {
+
+}
+
+.rulecontentszs .jg {
+    background: #ffd33c;
+    color: #121732;
+}
+
+.rulecontentszs .zs {
+    color: #acb4f9;
+}
+
+/** 客服QQ **/
+.kfbox {
+    position: fixed;
+    width: 270px;
+    height: 283px;
+    bottom: 50px;
+    right: 0px;
+    z-index: 1000;
+}
+
+/* .kfbox .kfbg {
+    width: 100%;
+    height: 283px;
+    background: url(./images/skin1/qrcode.png) 0 0 no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+} */
+
+.kfbox .kfqq {
+    width: 180px;
+    position: absolute;
+    left: 45px;
+    bottom: 0px;
+    z-index: 101;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #dfbd7a;
+    table-layout: fixed;
+    word-break: break-all;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+a:link {
+    color: #dfbd7a;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #dfbd7a;
+    text-decoration: none;
+}
+
+a:active {
+    color: #dfbd7a;
+    text-decoration: none;
+}
+
+a:hover {
+    /* color: #dfbd7a; */
+    text-decoration: none;
+}
+
+.dhbox {
+    position: fixed;
+    width: 270px;
+    height: 200px;
+    top: 150px;
+    right: 50px;
+    z-index: 1000;
+}
+
+.dhbox_1 {
+    width: 100%;
+    height: 50px;
+}
+
+.dhbox_x {
+    width: auto;
+    float: right;
+    cursor: pointer;
+}
+
+/* .dhbox_1_1 {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url(./images/skin1/sprite.png) no-repeat -226px 0;
+}
+
+.dhbox_x:hover > .dhbox_1_1 {
+    background: url(./images/skin1/sprite.png) no-repeat -240px 0;
+} */
+
+.dhbox_1_2 {
+    color: #8080b5;
+    padding-right: 20px;
+}
+
+.dhbox_x:hover > .dhbox_1_2 {
+    color: #ffd33c;
+}
+
+.czxt {
+    height: 154px;
+    position: absolute;
+    width: 1px;
+    background-color: #8080b5;
+    top: 7px;
+    right: 7px;
+}
+
+/* .dhbox_x .active1 {
+    background: url(./images/skin1/sprite.png) no-repeat -240px 0;
+} */
+
+.dhbox_x .active2 {
+    color: #ffd33c;
+}
+
+/**奖池列表**/
+.jclbbox {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 50000;
+}
+
+.jclbzzc {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: Alpha(Opacity=80); /*100为不透明，0为全透明*/
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.jclbbbx {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    height: 0px;
+}
+
+.jclbcontent {
+    width: 1020px;
+    height: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #0e364b;
+    background-color: #282d63;
+}
+
+.jclbcontent_1 {
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+/* .rechargecontent_1 .ng-pop-close:hover {
+    background: url('../images/skin1/box-alert.png') no-repeat 2px -108px;
+} */
+.jclbcontent_1_1 {
+    float: left;
+    background: url('../images/skin1/modal.png') no-repeat 0 -482px;
+    width: 253px;
+    height: 20px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.jclbcontent_1_2 {
+    float: left;
+    font-size: 30px;
+    color: #fcd073;
+    text-align: center;
+    width: 180px;
+    font-weight: 700;
+    line-height: 78px;
+}
+
+.jclbcontent_1_3 {
+    float: left;
+    background: url('../images/skin1/modal.png') no-repeat 0 -462px;
+    width: 253px;
+    height: 20px;
+    margin-top: 30px;
+}
+
+.jclbcontent_2 {
+    width: 940px;
+    height: 560px;
+    overflow-y: auto;
+    margin-left: 40px;
+}
+
+.jclbcontent_2_1 {
+    width: 176px;
+    height: 243px;
+    float: left;
+    position: relative;
+}
+
+.jclbcontent_2_1_1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
+.jclbcontent_2_1_2 {
+    width: 150px;
+    height: 217px;
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    z-index: 50;
+}
+
+.jclbcontent_2_1_3{
+    position: absolute;
+    top: 22px;
+    right: 12px;
+    margin: 0px;
+    width: 80px;
+    height: 22px;
+    background: url('../images/skin1/discount-bg.png') no-repeat 0 0;
+    /* text-align: right; */
+    line-height: 22px;
+    color: #282d63;
+    font-size: 11px;
+    float: right;
+    margin-top: 5px;
+    transform: scale(0.8);
+    z-index: 200;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+/* 右边固定栏 */
+.sub-nav {
+    position: fixed;
+    right: 40px;
+    top: 20%;
+    z-index: 1;
+}
+.sub-nav ul {
+    border-right: 1px solid #8080b5;
+    margin: 0px;
+}
+
+.sub-nav li {
+    color: #8080b5;
+    padding-right: 20px;
+    font-size: 16px;
+    text-align: right;
+    height: 14px;
+    cursor: pointer;
+    list-style: none;
+}
+.sub-nav li+li {
+    margin-top: 40px;
+}
+
+.sub-nav li.active, .sub-nav li:hover {
+    color: #f8cf6d;
+}
+.sub-nav li .icon {
+    position: absolute;
+    right: -7px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid #8080b5;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.sub-nav li .icon:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #8080b5;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.sub-nav li p {
+    line-height: 13px;
+    margin: 0px;
+}
+.sub-nav li.active .icon, .sub-nav li:hover .icon {
+    border: 1px solid white;
+}
+.sub-nav .qrcode {
+    width: 183px;
+    margin-top: 10px;
+    margin-right: -30px;
+    color: #dfbd7a;
+    font-weight: 700;
+    height: 240px;
+    padding-left: 4px;
+    /* background: url('../images/skin1/qrcode.png') no-repeat 0 0; */
+    font-size: 18px;
+    padding-top: 185px;
+}

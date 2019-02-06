@@ -1,0 +1,695 @@
+/* 皮肤１的字体样式 */
+.base-color{
+    color: #ffc65e!important;
+}
+body > div.rechargebox > div.rechargebox_1 > div > div.rechargecontent_2{
+    color: #dedad5;
+}
+/* 登录信息，用户信息 */
+.login-suss{
+    margin: 0px;
+}
+.logout{
+    cursor: pointer;
+}
+
+/* 充值，余额，我的背包 */
+.infobox .czbox .czbtn,.infobox .bbbox {
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+}
+.ali,.weinxin{
+    vertical-align: middle;
+    width: 26px;
+    height: 26px;
+}
+.rechargecontent_5_0{
+    margin-right: 0;
+    width: 75px;
+}
+.rechargecontent_5_btns{
+    margin-right: 5px;
+    cursor: auto;
+    width: 26px;
+    height: 26px;
+}
+
+/* 其他玩家获得 */
+.otherusergetbox .otheruserinfo .otheruserlist .otheruserone{
+    border: 1px solid #175f44;
+}
+.otheruserone_2_1,.otheruserone_2_2,.otheruserone_2_3{
+    margin-top: 15px;
+    height: 21px;
+    line-height: 21px;
+}
+.otheruserone_2_2{
+    margin-top: 0;
+}
+.otheruserone_2_3{
+    margin-top: 10px;
+    color: #16583f;
+}
+.otheruserone_2_2_1{
+    color: #d3af4b;
+}
+.jsbj,.rulecontentszs .zs,.pcolor3 p{
+    color: #ad784e;
+}
+/* 弹出框 */
+.alertcontent_4{
+    color: #d8cfc2;
+}
+/* 玩法规则 */
+.rulecontentstitle{
+    color: #fff;
+}
+.rulecontentszs_1{
+    color: #121732;
+    background-color: #5f4530;
+}
+/* 客服 */
+.qrcode{
+    height: 495px;
+    background: url('./qq-service.png') no-repeat;
+    padding-top: 25px;
+    /* padding-left: 28px; */
+    position: fixed;
+    left: 0;
+    top: 20%;
+    z-index: 1;
+    width: 220px;
+   
+
+
+  
+}
+.qrcode a{
+    position: absolute;
+
+    top: 32%;
+  
+    left: 34%;
+}
+/* 侧边导航 */
+.sub-nav {
+    height: 495px;
+    background: url('./qrcode.png') no-repeat 0 -236px;
+    padding-top: 25px;
+    /* padding-left: 28px; */
+    position: fixed;
+    right: 0;
+    top: 20%;
+    z-index: 1;
+    width: 220px;
+}
+.sub-nav .qrcode {
+    padding-top: 180px;
+    padding-left: 33px;
+    color: #dfbd7a;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.sub-nav .qrcode a{
+    color: #dfbd7a;
+}
+.sub-nav ul {
+    border: 0px;
+    position: absolute;
+    top: 22px;
+    left: 32px;
+
+}
+.sub-nav li {
+    color: #9e7c5e;
+    padding-right: 20px;
+    font-size: 16px;
+    text-align: left;
+    height: 14px;
+    cursor: pointer;
+    position: relative;
+}
+.sub-nav li .icon {
+    position: absolute;
+    left: -20px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: #433322;
+    border: 1px solid #af7d52;
+    border-radius: 50%;
+}
+.sub-nav li p {
+    line-height: 13px;
+    font-weight: 700;
+}
+.sub-nav li .icon:after{
+    background: #af7d52;
+}
+
+/* 每天首次登录宝箱 */
+.yhjcontent1_1, .wuyuan-yhjcontent1_1, .first-login-alertcontent,.alertcontent, .recharge-qq-alertcontent, .write-qq-alertcontent,.jclbcontent,.cjcontent2_1{
+    background-color: #553425;
+    border: 1px solid 1px solid #553425;
+}
+
+/* 充值 */
+.rechargecontent_3_1_btns,.reg-payType .item{
+    /* box-sizing: border-box; */
+    border: 1px solid #774935;;
+    background-color: #774935;;
+}
+.rechargechoosed {
+    border-color: #d9bd6f;
+}
+.rechargecontent_4,.dilog-con-action{
+    background-color: #43271a;
+}
+
+/* 我的背包 */
+.backpackc_1_3_1_1{
+    color: #dedad5;
+    margin-bottom: 0px;
+}
+.backpackc_1_2 .tip{
+    color: #fff;
+}
+.pcolor{
+    color: #fff;
+}
+.backpackc_1_3_2{
+    height: 430px;
+    border: 1px solid #675542;
+}
+.btr{
+    border-bottom: 1px solid #675542;
+}
+.bcontent .btitle{
+    font-weight: normal;
+}
+.bcontent{
+    height: 384px;
+}
+.backpackc_1_2_2_2 .backpackc_1_2_2_2_qq{
+    border-color: #1b2927;
+}
+/* 我的卡包 */
+.coupon-item s {
+    color: #849c92;
+}
+
+/* 奖池列表 */
+.jclbbox .goods-bg{
+    background: url('./goods-bg.png') no-repeat 0 0;
+    margin-left: 62px;
+    position: relative;
+    z-index: 100;
+}
+.jclbcontent_2_1{
+    cursor: pointer;
+}
+.jclbcontent_2_1_2{
+    width: 123px;
+    height: 194px;
+    top: 12px;
+    left: 75px;
+    z-index: 0;
+}
+
+.jclbcontent_2_1_3{
+    top: 12px;
+    right: -30px;
+}
+.jclbbox .detail-info{
+    width: 121px;
+    height: 198px;
+    z-index: 100;
+    position: absolute;
+    left: 77px;
+    top: 10px;
+}
+.jclbbox .detail-info:hover .detail{
+    display: inline-block;
+}
+.jclbbox .detail{
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 118px;
+    width: 121px;
+    height: 77px;
+    box-sizing: border-box;
+    z-index: 80;
+    background: #000;
+    transition: all .3s;
+    opacity: .8;
+    color: #fff;
+    padding: 10px;
+    /* margin-top: 120px; */
+    text-align: center;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.jclbbox .detail p{
+    font-weight: 500;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.jclbbox .detail .name{
+    color: #d5b854;
+}
+
+/* 五元抽奖一次 */
+.box-open-con-html li,.wuyuan  .goods-bg{
+    width: 179px;
+    height: 259px;
+}
+.wuyuan  .goods-bg-m{
+    z-index: 2;
+    margin-top: 7px;
+}
+.box-open-con-html li img{
+    z-index: 0;
+    border-radius: 0px;
+}
+.box-open-action{
+    box-sizing: border-box;
+}
+
+/* 抽十次 */
+.cjcontent2_1{
+    width: 1020px;
+    border-width: 0px;
+}
+.cjcontent2_1_2{
+    width: 790px;
+    height: 505px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.cjcontent2_1_2_1{
+    width: 152px;
+    height: 220px;
+    margin-top: 20px;
+}
+.cjcontent2_1_2_1_1{
+    background: url('./goods-bg.png') no-repeat 0 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+.cjcontent2_1_2_1_2{
+    top: 10px;
+    left: 11px;
+    margin-left: 0px;
+}
+.cjcontent2_1_2_1 .info{
+    left: 10px;
+    width: 130px;
+    border-radius: 0px;
+    z-index: 15;
+}
+.font_500{
+    font-weight: 300;
+    font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;;
+}
+body > div.backpackbox > div.backpackbox_1 > div > div.backpackc_1_3 > div.backpackc_1_3_1 > div.backpackc_1_3_1_2 > span:nth-child(8){
+    padding-left: 10px;
+  
+}
+.game_shop{
+    margin-top: 4px;
+}
+.rulecontentszs_2 p{
+    margin: 0;
+    margin-left: 29px;
+}
+/* 所有的背景色 */
+.rechargebox_1_1, .buy-card-rechargebox_1_1,.ng-pop-border2,.backpackc_1 {
+    background-color: #553425;
+    border: 1px solid #553425;
+}
+.backpackc_1_3_1{
+    background: #59482d;
+    background-color:#43271a;
+}
+
+/* 一键充值qq账号 */
+.bind-qq-title,.bind-qq-m1,.bind-qq-m2{
+    color: #fff;
+}
+.bind-qq-input {
+    background-color: #1b2927;
+    border: 1px solid #1b2927;
+}
+.bind-qq-li,.bind-qq-m1,.rulecontentszs_2{
+    color: #fffffe;
+}
+.bind-qq-li .box{
+    background-color: #375348;
+    border: 1px solid #1b2927;
+}
+.bind-qq-li.active .box {
+    background-color: #528873;
+}
+
+
+/* dnf嘉年华 */
+/* .carnival{
+    display: inline-block;
+} */
+.close-carnival{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.close-carnival .carnival-content1{
+    top: 0;
+    transition: all 0.5s;
+}
+.carnival-yhjcontent1_1{
+    width: 686px;
+    height: 380px;
+    opacity: 1;
+    background: url('./jianianhua.png') center center no-repeat;
+    border-width: 0px;
+    padding: 0;
+    position: relative;
+}
+
+.carnival-sure{
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 258px;
+    top: 321px;
+    bottom: 184px;
+    cursor: pointer;
+}
+
+.carnival-close{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 619px;
+    top: 40px;
+    bottom: 184px;
+    cursor: pointer;
+}
+
+
+/* main.css */
+.rechargecontent_1_1{
+    background: url("./box-alert.png") no-repeat -2px -82px;
+}
+
+.rechargechoosed s{
+    background: url('./box-alert.png') no-repeat -96px -90px;
+}
+
+.weixin {
+    background: url('./modal.png') no-repeat -208px -58px;
+}
+.ali {
+    background: url('./modal.png') no-repeat -182px -58px;
+}
+
+.reg-payType .item.active s {
+    background: url('./box-alert.png') no-repeat -96px -90px;
+}
+
+/* .qrcodebox .qrcodeCanvas_reg{
+    background: url('../images/loading.gif') no-repeat 50%;
+} */
+
+.cjcontent2_1_3 {
+    background: url('./line.png') no-repeat 0 0;
+}
+
+.backpackc_1_1_1,.jclbcontent_1_1 {
+    background: url('./modal.png') no-repeat 0 -38px;
+}
+
+.backpackc_1_1_3,.jclbcontent_1_3 {
+    background: url('./modal.png') no-repeat 0 -18px;
+}
+
+.iconfont{
+    background-image: url('./box-alert.png');
+}
+.rng-top-msg{
+    height: 50px !important;
+}
+.backpackc_1_2_5 {
+    line-height: 38px;
+    color: #ffeaab;
+    background: url('./modal-btn.png') no-repeat 0 -230px;
+}
+.backpackc_1_2_5:hover{
+    background: url('./modal-btn.png') no-repeat 0 -275px;
+}
+.backpackc_1_2_6:hover {
+    background: url('./modal-btn.png') no-repeat 0 -320px;
+}
+.backpackc_1_2_6 {
+    color: #f0c87d;
+    background: url('./modal-btn.png') no-repeat 0 -365px;
+}
+
+.pcolor3 .icon-tip {
+    background: url('./modal.png') no-repeat -183px -84px;
+}
+
+.alertcontent_1_1 {
+    background: url('./box-alert.png') no-repeat -2px -82px;
+}
+
+.alertcontent_2 {
+    background: url('./modal.png') no-repeat -1px -58px;
+}
+
+.alertcontent_5,.recharge-qq-alertcontent_5 {
+    left: 167px;
+    bottom: 10px;
+}
+
+.alertcontent_5:hover {
+    background: url("./modal-btn.png") no-repeat 0 -134px;
+}
+
+.multi-danmu .multi-content {
+    background: url('./danmu.png') 0 0 no-repeat;
+}
+
+.mCustomScrollBox .coupon-item {
+    background: url('./cou-bg.png') no-repeat;
+}
+
+.my-coupon-list .time-bg {
+    background: url('./time-bg.png') no-repeat 0 0;
+}
+
+.bind-qq-m1 .icon-tip {
+    background: url('./modal.png') no-repeat -61px 0;
+}
+
+.box-open-con-close {
+    background: url('./box-alert.png') no-repeat 2px -76px;
+}
+.box-open-con-close:hover {
+    background: url('./box-alert.png') no-repeat 2px -108px;
+}
+
+.wuyuan .goods-bg-m {
+    /* display: inline-block; */
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 100%;
+    height: 100%;
+    background: url('./goods-bg-m.png') no-repeat 0 0;
+}
+
+.box-open-action .btn-lol2, .box-open-action .btn-lol2-blue,.dilog-con-action .btn-lol2-blue,.dilog-con-action .btn-lol2,.first-login-alertcontent .btn-lol2,.alertcontent_5,.recharge-qq-alertcontent_5,.yhjcontent1_1_4_1,.coupon-pop-footer .btn {
+    width: 166px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: url('./modal-btn.png') no-repeat 0 0;
+}
+.box-open-action .btn-lol2:hover, .box-open-action .btn-lol2-blue:hover,.dilog-con-action .btn-lol2:hover,.first-login-alertcontent .btn-lol2:hover,.alertcontent_5:hover,.recharge-qq-alertcontent_5:hover,.yhjcontent1_1_4_1:hover,.coupon-pop-footer .btn:hover{
+    background: url("./modal-btn.png") no-repeat 0 -58px;
+}
+
+
+.dilog-con-action .btn-lol2-blue{
+    color: #f0c87d;
+    background: url('./modal-btn.png') no-repeat 0 -90px;
+}
+.dilog-con-action .btn-lol2-blue:hover{
+    background: url('./modal-btn.png') no-repeat 0 -135px;
+}
+
+.closeIframe {
+    background: url('./box-alert.png') no-repeat -35px -75px;
+}
+
+.first-login-alertcontent .freebox .img {
+    background: url('./freebox.jpg') no-repeat 0 0;
+}
+
+/* index.css */
+.bgbox {
+    background: url('./bg.jpg') no-repeat top #12151e;
+}
+
+.loginboxout .loginbox {
+    background: url('./login-bg.png') no-repeat 50%;
+}
+
+.infobox .czbox .czbtn {
+    background: url('./btnSprite.png') no-repeat 0 0;
+
+}
+.infobox .czbox .czbtn:hover {
+    background: url('./btnSprite.png') no-repeat 0 -47px;
+}
+
+.infobox .czbox .yebox {
+    display: inline-block;
+    padding: 0 20px;
+    text-align: left;
+    width: 300px;
+    box-sizing: border-box;
+    height: 34px;
+    line-height: 34px;
+    background: url('./user-bg.png') no-repeat 0 0;
+    margin-top: 3px;
+}
+#rulebox > div.rulecontentbox > div:nth-child(1) > div:nth-child(2) > span.rulecontentszs_2.jsbj,#rulebox > div.rulecontentbox > div:nth-child(2) > div:nth-child(2) > span{
+    color: #ad784e;
+}
+.infobox .bbbox {
+    background: url('./btnSprite.png') no-repeat 0 0;
+}
+
+.infobox .bbbox:hover {
+    background: url('./btnSprite.png') no-repeat 0 -47px;
+}
+
+.ckjlbox .ckjlbg {
+    background: url('./goods-arrow.png') no-repeat 0 0;
+}
+
+.buybox .kq1btn,.buybox .kq11btn {
+    width: 222px;
+    height: 59px;
+    line-height: 59px;
+    color: #fff;
+    font-size: 20px;
+    background: url('./btnSprite.png') no-repeat 0px -92px;
+}
+.buybox .kq1btn:hover,.buybox .kq11btn:hover  {
+    background: url('./btnSprite.png') no-repeat 0px -148px;
+}
+/* .buybox .kq11btn {
+    background: url('./btnSprite.png') no-repeat 0px -215px;
+}
+.buybox .kq11btn:hover {
+    background: url('./btnSprite.png') no-repeat 0px -282px;
+} */
+
+.otherusergetbox .otherusergettitle,.rulebox .ruletitle {
+    width: 100%;
+    height: 52px;
+    margin-top: 0;
+    background: url('./title.png') center 0 no-repeat;
+}
+
+.rulebox .ruletitle {
+    background: url('./title.png') center -52px no-repeat;
+}
+
+
+/* .jclbcontent_1_1 {
+    background: url('./modal.png') no-repeat 0 -482px;
+} */
+
+/* .jclbcontent_1_3 {
+    background: url('./modal.png') no-repeat 0 -462px;
+} */
+
+.jclbcontent_2_1_3{
+    background: url('./discount-bg.png') no-repeat 0 0;
+}
+
+/* .sub-nav .qrcode {
+    background: url('./qrcode.png') no-repeat 0 0;
+} */
+
+
+
+/* zyslide.css */
+.zy-Slide section:first-child{
+    width: 50px;
+    height: 57px;
+    background: url('./sprite.png') no-repeat 0 0;
+}
+.zy-Slide section:first-child:hover{
+    background: url('./sprite.png') no-repeat 0 -101px;
+}
+
+.zy-Slide .next{
+    width: 50px;
+    height: 57px;
+    right: -74px;
+    top: 124px;
+    background: url('./sprite.png') no-repeat -77px 0;
+}
+.zy-Slide .next:hover{
+    background: url('./sprite.png') no-repeat -77px -101px;
+}
+
+.zy-Slide li div{
+    background: url('./goods-bg-l.png') no-repeat 50%;
+    background-size: 100% 100%;
+}
+
+.lunbo-center>div{
+    background: url('./goods-bg-xl.png') no-repeat 0 0!important;
+    background-size: 100% 100% !important;
+}
+
+
+/* .first-login-gifts .coupon-pop-footer .btn{
+    background: url('./modal-btn.png') no-repeat 0 0;
+}
+
+.first-login-gifts .coupon-pop-footer .btn:hover {
+    background: url("./modal-btn.png") no-repeat 0 -62px;
+} */
+
+.alertcontent_5{
+    background: url("./modal-btn.png") no-repeat 0 -45px;
+}
+
+/*滚动条样式*/
+.scroll::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+}
+.scroll::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-width: 0px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 5px rgb(63,89,78);
+    background: rgba(43,54,50,0);
+}
+.scroll::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    border-width: 0px;
+    -webkit-box-shadow: inset 0 0 5px rgb(63,89,78);
+    border-radius: 2px;
+    background: rgba(43,54,50,0);
+}

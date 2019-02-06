@@ -1,0 +1,272 @@
+/* 皮肤１的字体样式 */
+
+/* 基础字体颜色 */
+.base-color{
+    color: #ffd33c !important;
+}
+/* 按钮字体颜色 */
+.btn-color{
+    color: #fff3b9 !important;
+}
+/* 侧边导航的字体颜色以及玩法规则的颜色 */
+.sub-li-color,.rules-color{
+    color: #855706;
+}
+.sub-li-color.active{
+    color: #e0441b;
+}
+/* 查看所有奖励的字体颜色 */
+.ckjlbox .ckjlbg .cljlbtn{
+    color: #e0441b;
+}
+
+/* 其他玩家获得的时间字体颜色 */
+.otheruserone_2_3{
+    color: #8e5a17;
+}
+
+/* 我的背包客服qq的字体颜色 */
+.backpackbox .qq-color{
+    color: #ff4e00;
+}
+
+/* 弹窗背景色以及边框颜色 */
+.dialog-bgcolor{
+    background-color: #f5e4ae;
+    border: 1px solid #f5e4ae;
+}
+.dialog-bgcolor2{
+    background: #dbbb7e;
+}
+
+/*滚动条样式*/
+.scroll::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+}
+.scroll::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-width: 0px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 5px rgb(234,206,149);
+    background: rgba(208,194,148,0);
+}
+.scroll::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    border-width: 0px;
+    -webkit-box-shadow: inset 0 0 5px rgb(234,206,149);
+    border-radius: 2px;
+    background: rgba(208,194,148,0);
+}
+
+
+/* 所有的背景图 */
+
+/* main.css */
+.rechargecontent_1_1{
+    background: url("./box-alert.png") no-repeat -2px -82px;
+}
+
+.rechargechoosed s{
+    background: url('./box-alert.png') no-repeat -96px -90px;
+}
+
+.weixin {
+    background: url('./modal.png') no-repeat -208px -502px;
+}
+.ali {
+    background: url('./modal.png') no-repeat -182px -502px;
+}
+
+.reg-payType .item.active s {
+    background: url('./box-alert.png') no-repeat -96px -90px;
+}
+
+.qrcodebox .qrcodeCanvas_reg{
+    background: url('../images/loading.gif') no-repeat 50%;
+}
+
+.cjcontent2_1_3 {
+    background: url('./line.png') no-repeat 0 0;
+}
+
+.backpackc_1_1_1 {
+    background: url('./modal.png') no-repeat 0 -482px;
+}
+
+.backpackc_1_1_3 {
+    background: url('./modal.png') no-repeat 0 -462px;
+}
+
+.iconfont{
+    background-image: url('./box-alert.png');
+}
+
+.backpackc_1_2_5 {
+    background: url('./modal-btn.png') no-repeat 0 0;
+}
+
+.backpackc_1_2_6 {
+    background: url('./modal-btn.png') no-repeat 0 -42px;
+}
+
+.pcolor3 .icon-tip {
+    background: url('./modal.png') no-repeat -183px -528px;
+}
+
+.alertcontent_1_1 {
+    background: url('./box-alert.png') no-repeat -2px -82px;
+}
+
+.alertcontent_2 {
+    background: url('./modal.png') no-repeat -1px -502px;
+}
+
+.alertcontent_5,.recharge-qq-alertcontent_5 {
+    background: url('./modal-btn.png') no-repeat 0 -84px;
+}
+
+.alertcontent_5:hover {
+    background: url("./modal-btn.png") no-repeat 0 -134px;
+}
+
+.multi-danmu .multi-content {
+    background: url('./danmu.png') 0 0 no-repeat;
+}
+
+.mCustomScrollBox .coupon-item {
+    background: url('./cou-bg.png') no-repeat;
+}
+
+.my-coupon-list .time-bg {
+    background: url('./time-bg.png') no-repeat 0 0;
+}
+
+.bind-qq-m1 .icon-tip {
+    background: url('./modal.png') no-repeat -61px 0;
+}
+
+.box-open-con-close {
+    background: url('./box-alert.png') no-repeat 2px -76px;
+}
+.box-open-con-close:hover {
+    background: url('./box-alert.png') no-repeat 2px -108px;
+}
+
+.goods-bg {
+    background: url('./goods-bg.png') no-repeat 0 0;
+}
+
+.box-open-action .btn-lol2, .box-open-action .btn-lol2-blue,.dilog-con-action .btn-lol2-blue,.dilog-con-action .btn-lol2,.first-login-alertcontent .btn-lol2{
+    background: url('./modal-btn.png') no-repeat 0 -84px;
+}
+.box-open-action .btn-lol2:hover, .box-open-action .btn-lol2-blue:hover,.dilog-con-action .btn-lol2:hover,.first-login-alertcontent .btn-lol2:hover{
+    background: url("./modal-btn.png") no-repeat 0 -134px;
+}
+
+.dilog-con-action .btn-lol2-blue{
+    background: url('./modal-btn.png') no-repeat 0 -184px;
+}
+
+.closeIframe {
+    background: url('./box-alert.png') no-repeat -35px -75px;
+}
+
+.first-login-alertcontent .freebox .img {
+    background: url('./freebox.jpg') no-repeat 0 0;
+}
+
+/* index.css */
+.bgbox {
+    background: url('./bg.jpg') no-repeat top #12151e;
+}
+
+.loginboxout .loginbox {
+    background: url('./login-bg.png') no-repeat 50%;
+}
+
+.infobox .czbox .czbtn {
+    background: url('./btnSprite.png') no-repeat 0 0;
+
+}
+.infobox .czbox .czbtn:hover {
+    background: url('./btnSprite.png') no-repeat 0 -41px;
+}
+
+.infobox .czbox .yebox {
+    background: url('./sprite.png') no-repeat 0 -280px;
+}
+
+.infobox .bbbox {
+    background: url('./btnSprite.png') no-repeat 0 0;
+}
+
+.infobox .bbbox:hover {
+    background: url('./btnSprite.png') no-repeat 0 -41px;
+}
+
+.ckjlbox .ckjlbg {
+    background: url('./goods-arrow.png') no-repeat 0 0;
+}
+
+.buybox .kq1btn {
+    background: url('./btnSprite.png') no-repeat 0px -81px;
+}
+.buybox .kq1btn:hover {
+    background: url('./btnSprite.png') no-repeat 0px -148px;
+}
+.buybox .kq11btn {
+    background: url('./btnSprite.png') no-repeat 0px -215px;
+}
+.buybox .kq11btn:hover {
+    background: url('./btnSprite.png') no-repeat 0px -282px;
+}
+
+.otherusergetbox .otherusergettitle {
+    background: url('./title.png') 0 0 no-repeat;
+}
+
+.rulebox .ruletitle {
+    background: url('./title.png') 0 -71px no-repeat;
+}
+
+.jclbcontent_1_1 {
+    background: url('./modal.png') no-repeat 0 -482px;
+}
+
+.jclbcontent_1_3 {
+    background: url('./modal.png') no-repeat 0 -462px;
+}
+
+.jclbcontent_2_1_3{
+    background: url('./discount-bg.png') no-repeat 0 0;
+}
+
+.sub-nav .qrcode {
+    background: url('./qrcode.png') no-repeat 0 0;
+}
+
+
+
+/* zyslide.css */
+.zy-Slide section:first-child{
+    background: url('./sprite.png') no-repeat -132px 0;
+}
+.zy-Slide section:first-child:hover{
+    background: url('./sprite.png') no-repeat -132px -39px;
+}
+
+.zy-Slide .next{
+    background: url('./sprite.png') no-repeat -179px 0;
+}
+.zy-Slide .next:hover{
+    background: url('./sprite.png') no-repeat -179px -39px;
+}
+
+.zy-Slide li div{
+    background: url('./goods-bg-l.png') no-repeat 50%;
+    background-size: 100% 100%;
+}
+
+.lunbo-center>div{
+    background: url('./goods-bg-xl.png') no-repeat 0 0!important;
+    background-size: 100% 100% !important;
+}
